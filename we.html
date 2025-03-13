@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+  <link rel="stylesheet" href="we.css"> 
+</head>
+<body>
+  <header>
+    <h1>To-Do List</h1>
+  </header>
+
+  <main>
+    <section id="add-task">
+      <input type="text" id="task-input" placeholder="Enter task" />
+      <button id="add-task-button">Add Task</button>
+    </section>
+
+    <section id="filters">
+      <button id="show-pending">Pending Tasks</button>
+      <button id="show-completed">Completed Tasks</button>
+    </section>
+
+    <section id="tasks">
+      <h2>Pending Tasks</h2>
+      <ul id="pending-list"></ul>
+
+      <h2>Completed Tasks</h2>
+      <ul id="completed-list"></ul>
+    </section>
+  </main>
+
+  <script src="we.js"></script> 
+</body>
+</html>
